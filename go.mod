@@ -1,4 +1,4 @@
-module github.com/shanluzhineng/irisx/controllerx
+module github.com/shanluzhineng/controllerx
 
 go 1.20
 
@@ -6,9 +6,9 @@ require (
 	github.com/kataras/iris/v12 v12.2.4
 	github.com/shanluzhineng/abmp v0.0.1
 	github.com/shanluzhineng/app v0.0.2
+	github.com/shanluzhineng/casdooropt v0.0.2
 	github.com/shanluzhineng/configurationx v0.0.1
 	github.com/shanluzhineng/entity v0.0.1
-	github.com/shanluzhineng/casdoorx v0.0.1
 	github.com/shanluzhineng/mongodbr v0.0.1
 	github.com/shanluzhineng/webserver v0.0.1
 	go.mongodb.org/mongo-driver v1.12.1
@@ -96,5 +96,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/shanluzhineng/irisx/casdoor => ./../casdoor

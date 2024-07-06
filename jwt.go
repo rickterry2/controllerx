@@ -3,9 +3,9 @@ package controllerx
 import (
 	"sync"
 
+	casdoor "github.com/shanluzhineng/casdooropt"
 	"github.com/shanluzhineng/configurationx"
 	optCasdoor "github.com/shanluzhineng/configurationx/options/casdoor"
-	"github.com/shanluzhineng/irisx/casdoor"
 )
 
 var (
